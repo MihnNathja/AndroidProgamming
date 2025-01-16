@@ -1,6 +1,7 @@
 package nathja.excercises.myapplication;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -43,7 +44,15 @@ public class ManHinh03 extends AppCompatActivity {
                 if(isPrime(number)){
                     numbers.add(number);
                 }
-                primeNumbers.setText(numbers.toString());
+                /* primeNumbers.setText(numbers.toString());
+                Mới đầu em tưởng là in ra giao diện, hihi
+                */
+                Log.d("PrimeNumbers", "Các số nguyên tố trong mảng là:");
+                for (int num : numbers) {
+                    if (isPrime(num)) {
+                        Log.d("PrimeNumbers", String.valueOf(num));
+                    }
+                }
                 } catch (NumberFormatException e) {
                     primeNumbers.setText("Vui lòng nhập số!");
                 }
