@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1034478925976",
+    "firebase_url": "https://videoshort-2c245-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "videoshort-2c245",
+    "storage_bucket": "videoshort-2c245.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034478925976:android:b5cbedf1cdc37d9b66f8ed",
+        "android_client_info": {
+          "package_name": "nathja.finalproject.firebaseexercise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4d7j1yj2sGMMvuISzYDgichlEHPfCgec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

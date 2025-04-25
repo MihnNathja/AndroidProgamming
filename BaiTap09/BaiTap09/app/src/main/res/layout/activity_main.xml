@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+<!-- Thanh tiêu đề -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="#FF3D00">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="@android:color/white"
+        android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hồ sơ cá nhân"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+<!-- Avatar -->
+<ImageView
+    android:id="@+id/imgAvatar"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="16dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/ic_launcher_foreground"
+    android:background="@drawable/circle_bg"/>
+
+<!-- Thông tin cá nhân -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:text="Mã ID"
+        style="@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tvUserId"
+        android:text="3"
+        style="@style/ValueStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:text="Tên đăng nhập"
+        style="@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tvUsername"
+        style="@style/ValueStyle"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:text="Họ tên"
+        style="@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tvFullName"
+        style="@style/ValueStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:text="Email"
+        style="@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tvEmail"
+        style="@style/ValueStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView android:text="Giới tính"
+        style="@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView android:id="@+id/tvGender"
+        style="@style/ValueStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+<!-- Nút Đăng Xuất -->
+<Button
+    android:id="@+id/btnLogout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ĐĂNG XUẤT"
+    android:textAllCaps="true"
+    android:textColor="@android:color/white"
+    android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:name=".ManHinh03"
-            android:exported="true">
+            android:exported="false">
 
         </activity>
         <activity

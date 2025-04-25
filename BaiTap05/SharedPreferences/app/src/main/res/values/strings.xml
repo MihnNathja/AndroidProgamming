@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Shared Preferences</string>
+    <string name="error_field_required">Email cannot be empty</string>
+    <string name="error_invalid_email">Email is not in the correct format</string>
+    <string name="error_invalid_password">Password must be greater than 4 characters</string>
+</resources>
